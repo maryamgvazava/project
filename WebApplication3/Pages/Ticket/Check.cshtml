@@ -1,0 +1,21 @@
+﻿@page
+@model WebApplication3.Pages.Ticket.CheckModel
+
+<h2>Check Ticket Status</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="TicketId"></label>
+        <input asp-for="TicketId" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Check</button>
+</form>
+
+@if (Model.Ticket != null)
+{
+    <div class="mt-4">
+        <h4>Ticket Details</h4>
+        <p>Status: @Model.Ticket.Status</p>
+        <a href="/api/tickets/@Model.Ticket.Id/pdf" class="btn btn-success">Download PDF</a>
+    </div>
+}

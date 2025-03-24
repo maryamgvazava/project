@@ -1,0 +1,23 @@
+﻿@page "{trainId}"
+@model WebApplication3.Pages.Passengers.IndexModel;
+@using WebApplication3.Models.ApiModels;
+@{
+    ViewData["Title"] = "Passenger Information";
+}@{
+    ViewData["Title"] = "Passenger Information";
+}
+
+<h2>Passenger Information</h2>
+<form method="post">
+    <!-- Rest of the form remains the same -->
+    <input asp-for="SelectedSeatId" type="hidden" id="selectedSeatId" />
+</form>
+
+<script>
+    document.querySelectorAll('.seat.available').forEach(button => {
+        button.addEventListener('click', () => {
+            document.getElementById('selectedSeatId').value = button.dataset.seatId;
+            $('#seatModal').modal('hide');
+        });
+    });
+</script>

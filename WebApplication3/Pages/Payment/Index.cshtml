@@ -1,0 +1,10 @@
+﻿@page
+@model WebApplication3.Pages.Passengers.IndexModel
+<h2>Payment</h2>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Payment.CardNumber"></label>
+        <input asp-for="Payment.CardNumber" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Pay Now</button>
+</form>

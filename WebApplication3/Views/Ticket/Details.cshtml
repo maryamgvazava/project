@@ -1,0 +1,27 @@
+﻿@model WebApplication3.Models.ApiModels.TicketResponse
+@{
+    ViewData["Title"] = "Ticket Details";
+}
+
+<div class="ticket-details">
+    @if (Model != null)
+    {
+        <h2>Ticket #@Model.Id</h2>
+        <div class="ticket-info">
+            <p><strong>Status:</strong> <span class="status">@Model.Status</span></p>
+            <p><strong>Train Number:</strong> @Model.TrainNumber</p>
+
+            <h4>Passengers</h4>
+            <ul class="passengers">
+                @foreach (var p in Model.Passengers)
+                {
+                    <li>@p.FirstName @p.LastName - Seat @p.SeatNumber</li>
+                }
+            </ul>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-danger">Ticket not found</div>
+    }
+</div>

@@ -1,0 +1,27 @@
+﻿@model List<WebApplication3.Models.ApiModels.Vagon>
+
+<div class="modal fade" id="seatModal" tabindex="-1">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-body">
+                @foreach (var vagon in Model ?? new List<WebApplication3.Models.ApiModels.Vagon>())
+                {
+                    <div class="vagon">
+                        <h6>Carriage @vagon?.Name</h6>
+                        <div class="seats">
+                            @foreach (var seat in vagon?.Seats ?? new List<Seat>())
+                            {
+                                <button type="button"
+                                        class="seat @(seat?.IsOccupied == true ? "occupied" : "available")"
+                                        data-seat-id="@seat?.SeatId"
+                                @(seat?.IsOccupied == true ? "disabled" : "")>
+                                    @seat?.Number
+                                </button>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

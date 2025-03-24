@@ -1,0 +1,19 @@
+﻿@page
+
+@model WebApplication3.Models.ApiModels.Train
+<div class="booking-summary">
+    <h4>Booking Summary</h4>
+    <dl>
+        <dt>Train:</dt>
+        <dd>@Model.Number - @Model.Name</dd>
+
+        <dt>Route:</dt>
+        <dd>@Model.From → @Model.To</dd>
+
+        <dt>Departure:</dt>
+        <dd>@Model.DepartureTime.ToString("f")</dd>
+
+        <dt>Arrival:</dt>
+        <dd>@Model.ArrivalTime.ToString("f")</dd>
+    </dl>
+</div>

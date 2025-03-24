@@ -1,0 +1,19 @@
+﻿@page
+@model WebApplication3.Pages.Train.IndexModel
+
+@if (Model.Trains?.Any() == true)
+{
+    @foreach (var train in Model.Trains)
+    {
+        <div class="train-card">
+            <h4>@train?.Name</h4> <!-- Null-conditional operator -->
+            <p>From: @train?.From</p> <!-- Use actual property names -->
+            <p>To: @train?.To</p>
+            <p>Departure: @train?.DepartureTime.ToString("t")</p>
+        </div>
+    }
+}
+else
+{
+    <div class="alert alert-info">No trains found</div>
+}
