@@ -1,16 +1,23 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-
-namespace WebApplication3.Pages
-{
-    public class ErrorModel : PageModel
-    {
-        public string? RequestId { get; set; }
-        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
-
-        public void OnGet()
-        {
-            RequestId = HttpContext.TraceIdentifier;
-        }
-    }
+﻿@page
+@model WebApplication3.Pages.ErrorModel
+@{
+    ViewData["Title"] = "Error";
+    Layout = null;  // Optional: Use if you want a different layout for errors
 }
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Error</title>
+</head>
+<body>
+    <h1 class="text-danger">Error.</h1>
+    <h2 class="text-danger">An error occurred while processing your request.</h2>
+
+    @if (Model.ShowRequestId)
+    {
+    <p><strong>Request ID:</strong> <code>@Model.RequestId</code></p>
+    }
+</body>
+</html>

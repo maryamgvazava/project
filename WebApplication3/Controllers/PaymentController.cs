@@ -1,29 +1,49 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebApplication3.Models.ApiModels;
 using WebApplication3.Models.ViewModels;
-using WebApplication3.Services;
+using WebApplication3.Services; // Add this
 
-public class PaymentController : Controller
+namespace WebApplication3.Controllers
 {
-    private readonly RailwayService _railwayService;
-
-    public PaymentController(RailwayService railwayService)
+    public class PaymentController : Controller
     {
-        _railwayService = railwayService;
-    }
+        private readonly IRailwayService _railwayService;
+        private readonly IPDFService _pdfService; // Now recognizes IPDFService
 
-    [HttpPost]
-    public async Task<IActionResult> ProcessPayment(PaymentViewModel model)
-    {
-        if (!ModelState.IsValid)
-            return View("Index", model);
+        public PaymentController(IRailwayService railwayService, IPDFService pdfService)
+        {
+            _railwayService = railwayService;
+            _pdfService = pdfService;
+        }
 
-        var ticket = await _railwayService.CreateTicketAsync(model.TicketRequest);
-        return RedirectToAction("Confirmation", new { ticketId = ticket.Id });
-    }
+        [HttpPost]
+        public async Task<IActionResult> ProcessPayment(PaymentViewModel model)
+        {
+            if (!ModelState.IsValid) return View("PaymentForm", model);
 
-    public IActionResult Confirmation(Guid ticketId)
-    {
-        return View(ticketId);
+            try
+            {
+                var ticketResponse = await _railwayService.CreateTicketAsync(model.TicketRequest);
+                return RedirectToAction("Confirmation", new { ticketId = ticketResponse.Id });
+            }
+            catch
+            {
+                return RedirectToAction("Error", "Home");
+            }
+        }
+
+        [HttpGet]
+        public IActionResult Confirmation(Guid ticketId)
+        {
+            return View(ticketId);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> DownloadTicket(Guid ticketId)
+        {
+            var ticket = await _railwayService.GetTicketAsync(ticketId);
+            var pdfBytes = _pdfService.GenerateTicketPdf(ticket);
+            return File(pdfBytes, "application/pdf", $"Ticket-{ticketId}.pdf");
+        }
     }
 }

@@ -7,34 +7,30 @@ namespace WebApplication3.Pages.Ticket
 {
     public class CheckModel : PageModel
     {
-        private readonly RailwayService _railwayService;
+        private readonly IRailwayService _railwayService;
 
         [BindProperty]
         public Guid TicketId { get; set; }
+
         public TicketResponse? Ticket { get; set; }
 
-        public CheckModel(RailwayService railwayService)
+        public CheckModel(IRailwayService railwayService)
         {
             _railwayService = railwayService;
         }
 
         public async Task<IActionResult> OnPostAsync()
         {
-            if (TicketId != Guid.Empty)
-            {
-                Ticket = await _railwayService.GetTicketAsync(TicketId);
-            }
+            if (TicketId == Guid.Empty) return Page();
+
+            Ticket = await _railwayService.GetTicketAsync(TicketId);
             return Page();
         }
 
         public async Task<IActionResult> OnPostCancelAsync()
         {
-            if (TicketId != Guid.Empty)
-            {
-                var success = await _railwayService.CancelTicketAsync(TicketId);
-                if (success) return RedirectToPage("./Check");
-            }
-            return Page();
+            var success = await _railwayService.CancelTicketAsync(TicketId);
+            return RedirectToPage("./Check", new { success });
         }
     }
 }

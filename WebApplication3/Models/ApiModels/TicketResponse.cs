@@ -8,24 +8,27 @@ namespace WebApplication3.Models.ApiModels
         public Guid Id { get; set; }
 
         [JsonPropertyName("status")]
-        public string Status { get; set; } = string.Empty;
+        public string? Status { get; set; }
 
-        [JsonPropertyName("trainNumber")]  // Add this property
-        public string TrainNumber { get; set; } = string.Empty;
+        [JsonPropertyName("train")]
+        public Train? Train { get; set; }
 
-        [JsonPropertyName("passengers")]
-        public List<PassengerResponse> Passengers { get; set; } = new();
+        [JsonPropertyName("persons")]
+        public List<PassengerResponse> Persons { get; set; } = new();
 
         public class PassengerResponse
         {
-            [JsonPropertyName("firstName")]
-            public string FirstName { get; set; } = string.Empty;
+            [JsonPropertyName("name")]
+            public string? Name { get; set; }
 
-            [JsonPropertyName("lastName")]
-            public string LastName { get; set; } = string.Empty;
+            [JsonPropertyName("surname")]
+            public string? Surname { get; set; }
 
             [JsonPropertyName("seatNumber")]
-            public string SeatNumber { get; set; } = string.Empty;
+            public string? SeatNumber { get; set; }
+
+            [JsonPropertyName("idNumber")]
+            public string? IdNumber { get; set; }
         }
     }
 }

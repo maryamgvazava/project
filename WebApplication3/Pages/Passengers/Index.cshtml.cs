@@ -1,36 +1,42 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using WebApplication3.Models.ApiModels;
+using WebApplication3.Models.ViewModels;
 using WebApplication3.Services;
 
 namespace WebApplication3.Pages.Passengers
 {
     public class IndexModel : PageModel
     {
-
-        private readonly RailwayService _railwayService;
+        private readonly IRailwayService _railwayService;
 
         [BindProperty(SupportsGet = true)]
         public int TrainId { get; set; }
 
-        public WebApplication3.Models.ApiModels.Train? Train { get; set; }
-        // Constructor
-        public IndexModel(RailwayService railwayService)
+        public Models.ApiModels.Train? TrainDetails { get; set; }
+
+        [BindProperty]
+        public BookingViewModel Booking { get; set; } = new();
+
+        public IndexModel(IRailwayService railwayService)
         {
             _railwayService = railwayService;
         }
 
-        // This is where OnGetAsync should be declared
         public async Task<IActionResult> OnGetAsync()
         {
-            Train = await _railwayService.GetTrainDetailsAsync(TrainId);
-
-            if (Train is null)
-            {
-                return RedirectToPage("/Error");
-            }
-
+            TrainDetails = await _railwayService.GetTrainDetailsAsync(TrainId);
             return Page();
+        }
+
+        public async Task<IActionResult> OnPostAsync()
+        {
+            if (!ModelState.IsValid)
+            {
+                TrainDetails = await _railwayService.GetTrainDetailsAsync(TrainId);
+                return Page();
+            }
+            return RedirectToPage("/Payment/Index", new { TrainId });
         }
     }
 }

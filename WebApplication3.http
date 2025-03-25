@@ -1,6 +1,6 @@
 @WebApplication3_HostAddress = http://localhost:5243
 
-GET {{WebApplication3_HostAddress}}/weatherforecast/
+GET {{WebApplication3_HostAddress}}/RailwayApi/
 Accept: application/json
 
 ###

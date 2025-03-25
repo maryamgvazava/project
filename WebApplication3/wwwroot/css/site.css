@@ -1,22 +1,39 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
+/* Base styles */
 body {
-  margin-bottom: 60px;
+    padding-top: 56px;
+}
+
+/* Train cards */
+.train-card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+    .train-card:hover {
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    }
+
+/* Seat map */
+.seat-map {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.seat {
+    width: 100%;
+    min-width: 50px;
+}
+
+/* Ticket styles */
+.ticket-details {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .seat-map {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

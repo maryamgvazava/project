@@ -1,25 +1,27 @@
+// Pages/Trains/Index.cshtml.cs
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using WebApplication3.Models.ApiModels; // Namespace for Train model
+using WebApplication3.Models.ApiModels;
 using WebApplication3.Services;
 
-namespace WebApplication3.Pages.Train
+namespace WebApplication3.Pages.Trains
 {
     public class IndexModel : PageModel
     {
-        private readonly RailwayService _railwayService;
+        private readonly IRailwayService _railwayService;
 
-        // Property declaration
-        public List<WebApplication3.Models.ApiModels.Train>? Trains { get; set; }
+        // Add this property
+        public List<Train> Trains { get; set; } = new();
 
-        public IndexModel(RailwayService railwayService)
+        public IndexModel(IRailwayService railwayService)
         {
             _railwayService = railwayService;
         }
 
         public async Task<IActionResult> OnGetAsync(string from, string to, DateTime date)
         {
-            Trains = await _railwayService.GetTrainsAsync(from, to, date);
+            var departures = await _railwayService.GetDeparturesAsync(from, to, date);
+            Trains = departures.SelectMany(d => d.Trains).ToList();
             return Page();
         }
     }

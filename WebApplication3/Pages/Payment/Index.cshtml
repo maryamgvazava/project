@@ -1,10 +1,32 @@
 ﻿@page
-@model WebApplication3.Pages.Passengers.IndexModel
-<h2>Payment</h2>
-<form method="post">
-    <div class="form-group">
-        <label asp-for="Payment.CardNumber"></label>
-        <input asp-for="Payment.CardNumber" class="form-control" />
-    </div>
-    <button type="submit" class="btn btn-primary">Pay Now</button>
-</form>
+@model WebApplication3.Pages.Payment.IndexModel
+
+<div class="container">
+    <h2>Payment for @Model.TrainDetails?.Name</h2>
+
+    <form method="post">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Payment.CardNumber"></label>
+                    <input asp-for="Payment.CardNumber" class="form-control" />
+                    <span asp-validation-for="Payment.CardNumber" class="text-danger"></span>
+                </div>
+                <!-- Add other payment fields -->
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>Order Summary</h5>
+                        <p>Train: @Model.TrainDetails?.Name</p>
+                        <p>From: @Model.TrainDetails?.From</p>
+                        <p>To: @Model.TrainDetails?.To</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Complete Payment</button>
+    </form>
+</div>

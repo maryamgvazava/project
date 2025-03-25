@@ -1,5 +1,5 @@
-﻿using System.Text.Json.Serialization;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace WebApplication3.Models.ApiModels
 {
@@ -8,9 +8,8 @@ namespace WebApplication3.Models.ApiModels
         [JsonPropertyName("id")]
         public int Id { get; set; }
 
-        // Add this property
         [JsonPropertyName("number")]
-        public string Number { get; set; } = string.Empty;
+        public int Number { get; set; }
 
         [JsonPropertyName("name")]
         public string Name { get; set; } = string.Empty;
@@ -21,11 +20,11 @@ namespace WebApplication3.Models.ApiModels
         [JsonPropertyName("to")]
         public string To { get; set; } = string.Empty;
 
-        [JsonPropertyName("departureTime")]
-        public DateTime DepartureTime { get; set; }
+        [JsonPropertyName("departure")]
+        public string DepartureTime { get; set; } = string.Empty;
 
-        [JsonPropertyName("arrivalTime")]
-        public DateTime ArrivalTime { get; set; }
+        [JsonPropertyName("arrive")]
+        public string ArrivalTime { get; set; } = string.Empty;
 
         [JsonPropertyName("vagons")]
         public List<Vagon> Vagons { get; set; } = new List<Vagon>();

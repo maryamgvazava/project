@@ -1,31 +1,39 @@
-﻿using System.Text.Json.Serialization;
+﻿using System;
+using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace WebApplication3.Models.ApiModels
 {
     public class TicketRequest
     {
+        [JsonPropertyName("trainId")]
+        public int TrainId { get; set; }
+
+        [JsonPropertyName("date")]
+        public DateTime Date { get; set; }
+
         [JsonPropertyName("email")]
         public string Email { get; set; } = string.Empty;
 
-        [JsonPropertyName("phone")]
-        public string Phone { get; set; } = string.Empty;
+        [JsonPropertyName("phoneNumber")]
+        public string PhoneNumber { get; set; } = string.Empty;
 
-        [JsonPropertyName("passengers")]
-        public List<PassengerRequest> Passengers { get; set; } = new List<PassengerRequest>();
-    }
+        [JsonPropertyName("people")]
+        public List<PassengerRequest> People { get; set; } = new List<PassengerRequest>();
 
-    public class PassengerRequest
-    {
-        [JsonPropertyName("firstName")]
-        public string FirstName { get; set; } = string.Empty;
+        public class PassengerRequest
+        {
+            [JsonPropertyName("seatId")]
+            public Guid SeatId { get; set; }
 
-        [JsonPropertyName("lastName")]
-        public string LastName { get; set; } = string.Empty;
+            [JsonPropertyName("name")]
+            public string Name { get; set; } = string.Empty;
 
-        [JsonPropertyName("personalNumber")]
-        public string PersonalNumber { get; set; } = string.Empty;
+            [JsonPropertyName("surname")]
+            public string Surname { get; set; } = string.Empty;
 
-        [JsonPropertyName("seatId")]
-        public Guid SeatId { get; set; }
+            [JsonPropertyName("idNumber")]
+            public string IdNumber { get; set; } = string.Empty;
+        }
     }
 }

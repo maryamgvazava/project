@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\WebApplication3",
+    "\\WebApplication3\\Controllers",
+    "\\WebApplication3\\Models",
+    "\\WebApplication3\\Models\\ApiModels",
+    "\\WebApplication3\\Models\\ViewModels",
+    "\\WebApplication3\\Pages",
+    "\\WebApplication3\\Services"
+  ],
+  "SelectedNode": "\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}

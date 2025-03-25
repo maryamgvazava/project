@@ -1,23 +1,93 @@
 ﻿@page "{trainId}"
-@model WebApplication3.Pages.Passengers.IndexModel;
-@using WebApplication3.Models.ApiModels;
-@{
-    ViewData["Title"] = "Passenger Information";
-}@{
-    ViewData["Title"] = "Passenger Information";
-}
+@model WebApplication3.Pages.Passengers.IndexModel
 
-<h2>Passenger Information</h2>
-<form method="post">
-    <!-- Rest of the form remains the same -->
-    <input asp-for="SelectedSeatId" type="hidden" id="selectedSeatId" />
-</form>
+<div class="container">
+    <h2>Passenger Details for @Model.TrainDetails?.Name</h2>
+    <form method="post">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Contact Information</h3>
+                <div class="mb-3">
+                    <label asp-for="Booking.Email" class="form-label"></label>
+                    <input asp-for="Booking.Email" class="form-control">
+                    <span asp-validation-for="Booking.Email" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Booking.Phone" class="form-label"></label>
+                    <input asp-for="Booking.Phone" class="form-control">
+                    <span asp-validation-for="Booking.Phone" class="text-danger"></span>
+                </div>
+            </div>
 
-<script>
-    document.querySelectorAll('.seat.available').forEach(button => {
-        button.addEventListener('click', () => {
-            document.getElementById('selectedSeatId').value = button.dataset.seatId;
-            $('#seatModal').modal('hide');
+            <div class="col-md-6">
+                <h3>Passengers</h3>
+                @for (var i = 0; i < Model.Booking.Passengers.Count; i++)
+                {
+                <div class="card mb-3" data-passenger-index="@i">
+                    <div class="card-body">
+                        <h5>Passenger @(i + 1)</h5>
+                        <div class="mb-3">
+                            <label asp-for="Booking.Passengers[i].FirstName" class="form-label"></label>
+                            <input asp-for="Booking.Passengers[i].FirstName" class="form-control">
+                            <span asp-validation-for="Booking.Passengers[i].FirstName" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Booking.Passengers[i].LastName" class="form-label"></label>
+                            <input asp-for="Booking.Passengers[i].LastName" class="form-control">
+                            <span asp-validation-for="Booking.Passengers[i].LastName" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Booking.Passengers[i].PersonalNumber" class="form-label"></label>
+                            <input asp-for="Booking.Passengers[i].PersonalNumber" class="form-control">
+                            <span asp-validation-for="Booking.Passengers[i].PersonalNumber" class="text-danger"></span>
+                        </div>
+                        <input type="hidden" asp-for="Booking.Passengers[i].SeatId" />
+                        <button type="button" class="btn btn-secondary btn-select-seat"
+                                data-bs-toggle="modal"
+                                data-bs-target="#seatModal"
+                                data-passenger-index="@i">
+                            Select Seat: <span class="selected-seat">@Model.Booking.Passengers[i].SeatNumber</span>
+                        </button>
+                    </div>
+                </div>
+                }
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Continue to Payment</button>
+    </form>
+</div>
+
+<partial name="_SeatModal" model="Model.TrainDetails?.Vagons" />
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const modalSeatButtons = document.querySelectorAll('#seatModal .seat-btn');
+            let currentPassengerIndex = null;
+
+            document.querySelectorAll('.btn-select-seat').forEach(button => {
+                button.addEventListener('click', function () {
+                    currentPassengerIndex = this.dataset.passengerIndex;
+                });
+            });
+
+            modalSeatButtons.forEach(seatBtn => {
+                seatBtn.addEventListener('click', function () {
+                    const seatId = this.dataset.seatId;
+                    const seatNumber = this.dataset.seatNumber;
+                    const vagonNumber = this.dataset.vagonNumber;
+
+                    document.querySelector(`input[name="Booking.Passengers[${currentPassengerIndex}].SeatId"]`).value = seatId;
+                    document.querySelector(`input[name="Booking.Passengers[${currentPassengerIndex}].SeatNumber"]`).value = seatNumber;
+                    document.querySelector(`input[name="Booking.Passengers[${currentPassengerIndex}].VagonNumber"]`).value = vagonNumber;
+
+                    document.querySelector(`[data-passenger-index="${currentPassengerIndex}"] .selected-seat`)
+                        .textContent = `${vagonNumber}-${seatNumber}`;
+
+                    $('#seatModal').modal('hide');
+                });
+            });
         });
-    });
-</script>
+    </script>
+}

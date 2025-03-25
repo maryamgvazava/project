@@ -1,88 +1,39 @@
-﻿@page
-@model WebApplication3.Pages.Passengers.IndexModel
-@using WebApplication3.Models.ApiModels
+﻿@page "{id}"
+@model WebApplication3.Pages.Trains.DetailsModel
 
-<h2>Train Details</h2>
+<div class="container">
+    <h2>@Model.Train?.Name Details</h2>
 
-@if (Model.Train is not null)
-{
-    <div class="train-info">
-        <h3>@Model.Train!.Name (No. @Model.Train.Number)</h3>
-
-        <div class="row mt-4">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-header">
-                        Departure Details
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text">
-                            <strong>From:</strong> @Model.Train.From<br>
-                            <strong>Time:</strong> @Model.Train.DepartureTime.ToString("f")
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-header">
-                        Arrival Details
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text">
-                            <strong>To:</strong> @Model.Train.To<br>
-                            <strong>Time:</strong> @Model.Train.ArrivalTime.ToString("f")
-                        </p>
-                    </div>
-                </div>
-            </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h4>Departure: @Model.Train?.From</h4>
+            <p>@Model.Train?.DepartureTime</p>
         </div>
-
-        <div class="mt-4">
-            <h4>Carriages and Seats</h4>
-
-            @foreach (var vagon in Model.Train.Vagons ?? new List<Vagon>())
-            {
-                <div class="card mt-3">
-                    <div class="card-header bg-secondary text-white">
-                        Carriage @vagon?.Name
-                    </div>
-                    <div class="card-body">
-                        <div class="seat-map">
-                            @foreach (var seat in vagon?.Seats ?? new List<Seat>())
-                            {
-                                <button type="button"
-                                        class="btn m-1 seat @(seat?.IsOccupied == true ? "btn-danger disabled" : "btn-success")"
-                                        data-seat-id="@seat?.SeatId"
-                                @(seat?.IsOccupied == true ? "disabled" : "")>
-                                    Seat @seat?.Number
-                                </button>
-                            }
-                        </div>
-                    </div>
-                </div>
-            }
+        <div class="col-md-6">
+            <h4>Arrival: @Model.Train?.To</h4>
+            <p>@Model.Train?.ArrivalTime</p>
         </div>
     </div>
 
-    @section Scripts {
-    <script>
-        document.querySelectorAll('.seat:not(.disabled)').forEach(seat => {
-            seat.addEventListener('click', () => {
-                const seatId = seat.dataset.seatId;
-                if (seatId) {
-                    window.location.href = `/Passengers/SelectSeat?trainId=@Model.Train?.Id&seatId=${seatId}`;
-                }
-            });
-        });
-    </script>
+    <h3>Carriages</h3>
+    @foreach (var vagon in Model.Train?.Vagons ?? new List<Vagon>())
+    {
+    <div class="card mb-3">
+        <div class="card-header">
+            Carriage @vagon.Name
+        </div>
+        <div class="card-body">
+            <div class="seat-map">
+                @foreach (var seat in vagon.Seats)
+                    {
+                <button type="button"
+                        class="btn btn-sm m-1 @(seat.IsOccupied ? "btn-danger disabled" : "btn-outline-success")"
+                        @(seat.IsOccupied ? "disabled" : "")>
+                    @seat.Number
+                </button>
+                    }
+            </div>
+        </div>
+    </div>
     }
-}
-else
-{
-    <div class="alert alert-danger mt-4">
-        <h4>Error!</h4>
-        Train details could not be loaded. Please try again later.
-    </div>
-}
+</div>

@@ -2,28 +2,42 @@
 using WebApplication3.Models.ApiModels;
 using WebApplication3.Services;
 
-public class TicketController : Controller
+namespace WebApplication3.Controllers
 {
-    private readonly RailwayService _railwayService;
-    private readonly PDFService _pdfService;
-
-    public TicketController(RailwayService railwayService, PDFService pdfService)
+    public class TicketController : Controller
     {
-        _railwayService = railwayService;
-        _pdfService = pdfService;
-    }
+        private readonly IRailwayService _railwayService;
 
-    [HttpPost]
-    public async Task<IActionResult> CheckTicket(Guid ticketId)
-    {
-        var ticket = await _railwayService.GetTicketAsync(ticketId);
-        return View("Details", ticket);
-    }
+        public TicketController(IRailwayService railwayService)
+        {
+            _railwayService = railwayService;
+        }
 
-    [HttpPost]
-    public async Task<IActionResult> CancelTicket(Guid ticketId)
-    {
-        var success = await _railwayService.CancelTicketAsync(ticketId);
-        return View("CancelResult", success);
+        public IActionResult Check()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CheckTicket(Guid ticketId)
+        {
+            try
+            {
+                var ticket = await _railwayService.GetTicketAsync(ticketId);
+                return View("TicketStatus", ticket);
+            }
+            catch
+            {
+                ViewBag.Error = "Ticket not found";
+                return View("Check");
+            }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CancelTicket(Guid ticketId)
+        {
+            var success = await _railwayService.CancelTicketAsync(ticketId);
+            return View("CancelResult", success);
+        }
     }
 }

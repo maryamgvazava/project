@@ -3,10 +3,9 @@ using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
 using WebApplication3.Models.ApiModels;
 
-
 namespace WebApplication3.Services
 {
-    public class PDFService
+    public class PDFService : IPDFService
     {
         public byte[] GenerateTicketPdf(TicketResponse? ticket)
         {
@@ -19,7 +18,7 @@ namespace WebApplication3.Services
                 container.Page(page =>
                 {
                     page.Size(PageSizes.A4);
-                    page.Margin(2, Unit.Centimetre);
+                    page.Margin(2, Unit.Centimetre); // Added missing semicolon here
 
                     page.Header()
                         .AlignCenter()
@@ -31,14 +30,20 @@ namespace WebApplication3.Services
                         .Column(col =>
                         {
                             col.Item().Text($"Ticket ID: {ticket.Id}");
-                            col.Item().Text($"Status: {ticket.Status}");
-                            col.Item().Text($"Train: {ticket.TrainNumber}");
+                            col.Item().Text($"Status: {ticket.Status ?? "Unknown"}");
 
-                            foreach (var passenger in ticket.Passengers)
+                            if (ticket.Train != null)
+                            {
+                                col.Item().Text($"Train: {ticket.Train.Name} (#{ticket.Train.Number})");
+                                col.Item().Text($"Route: {ticket.Train.From} → {ticket.Train.To}");
+                                col.Item().Text($"Departure: {ticket.Train.DepartureTime}");
+                            }
+
+                            foreach (var passenger in ticket.Persons)
                             {
                                 col.Item().PaddingTop(10).Text($"""
-                                    Passenger: {passenger.FirstName} {passenger.LastName}
-                                    Seat: {passenger.SeatNumber}
+                                    Passenger: {passenger.Name} {passenger.Surname}
+                                    Seat: {passenger.SeatNumber ?? "Not Assigned"}
                                     """);
                             }
                         });
