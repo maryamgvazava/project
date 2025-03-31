@@ -1,5 +1,5 @@
-﻿// Models/ViewModels/BookingViewModel.cs
-using System.ComponentModel.DataAnnotations; // Add this
+
+using System.ComponentModel.DataAnnotations; 
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebApplication3.Models.ViewModels
