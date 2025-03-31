@@ -1,6 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using WebApplication3.Models.ApiModels; // Add this
-
+using WebApplication3.Models.ApiModels; 
 namespace WebApplication3.Models.ViewModels
 {
     public class PaymentViewModel
