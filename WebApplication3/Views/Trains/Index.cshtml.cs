@@ -1,4 +1,4 @@
-// Pages/Trains/Index.cshtml.cs
+
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using WebApplication3.Models.ApiModels;
@@ -10,7 +10,7 @@ namespace WebApplication3.Pages.Trains
     {
         private readonly IRailwayService _railwayService;
 
-        // Add this property
+
         public List<Train> Trains { get; set; } = new();
 
         public IndexModel(IRailwayService railwayService)
