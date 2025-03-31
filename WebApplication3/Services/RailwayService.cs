@@ -25,7 +25,7 @@ namespace WebApplication3.Services
                 $"api/getvagon/{departureid}");
             return response ?? new List<Vagon>();
         }
-        // Implement other interface methods
+       
         public async Task<Train> GetTrainDetailsAsync(int id) =>
             await _httpClient.GetFromJsonAsync<Train>($"/api/trains/{id}") ?? new Train();
 
