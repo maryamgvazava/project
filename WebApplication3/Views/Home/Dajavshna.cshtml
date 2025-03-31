@@ -1,0 +1,246 @@
+﻿@model Train    
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+<style>
+    .schedule-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #f9fafb;
+    }
+
+    .schedule-table th {
+    background-color: #f3f4f6;
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+    font-weight: 600;
+    }
+
+    .schedule-table td {
+    padding: 15px;
+    border-bottom: 1px solid #e5e7eb;
+    vertical-align: middle;
+    }
+
+    .schedule-table .action-btn {
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+
+    .input-row {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    }
+
+    .input-wrapper {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    }
+
+    .input-wrapper input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    }
+
+    .payment-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9fafb;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    }
+
+    .input-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    }
+
+    .input-group {
+    flex: 1;
+    }
+
+    .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+    font-size: 14px;
+    }
+
+    .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    }
+
+    .amount-note {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 10px;
+    }
+
+    .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+
+    .form-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    }
+
+    .form-input {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 8px;
+    }
+
+    .form-input input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin-left: 5px;
+    }
+
+    .form-input .prefix {
+    color: #888;
+    font-size: 14px;
+    }
+
+    .blue-button {
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    }
+
+</style>
+
+<div class="container">
+    <h2>მატარაბლის ჩამონათვალი</h2>
+    <table class="schedule-table">
+        <thead>
+            <tr>
+                <th>მატარებლის სახელი</th>
+
+                <th>გამგზავრება</th>
+                <th>ჩასვლა</th>
+                <th></th>
+            </tr>
+        </thead>
+        <form method="post" asp-controller="Home" asp-action="Dajavshna">
+            <tbody>
+                <tr>
+                    <td>#@Model.Id @Model.Name</td>
+                    <td>@Model.DepartureTime @Model.From</td>
+                    <td>@Model.ArrivalTime @Model.To</td>
+
+                </tr>
+            </tbody>
+        </form>
+    </table>
+</div>
+<form method="post" asp-controller="Home" asp-action="Saboloo">
+    <input hidden name="departureid" value="@Model.Id" />
+    <h2>საკონტაქტო ინფორმაცია</h2>
+    <div class="input-row">
+        <div class="input-wrapper">
+            <input type="text" placeholder="gmail"   required name="sakontaqtogmail"/>
+        </div>
+        <div class="input-wrapper">
+            <input type="text" placeholder="ტელეფონის ნომერი" required  name="sakontaqtonomeri"/>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        @for (int i = 0; i < int.Parse(HttpContextAccessor.HttpContext.Session.GetString("raodenoba")); i++)
+        {
+
+            <h3>მგზავრი @(i+1)</h3>
+            <div class="form-container">
+                <button class="blue-button" type="button">ადგილი:</button>    
+
+                <div class="form-input">
+                    <span class="prefix"></span>
+                    <input type="text" placeholder="სახელი" required  name="saxeli[]" />
+                </div>
+
+                <div class="form-input">
+                    <span class="prefix"></span>
+                    <input type="text" placeholder="გვარი" required  name="gvari[]" />
+                </div>
+
+                <div class="form-input">
+                    <input type="text" placeholder="პირადი ნომერი"  required  name="piradinomeri[]" />
+                </div>
+                <select name="adgili[]">
+                    <option disabled value="" selected>ადგილი</option>
+                    @foreach (var j in ViewBag.adgilebi)
+                    {
+                        @foreach(var k in j.Seats)
+                        {
+                            if(k.IsOccupied == false)
+                            {
+                            <option value="@k.Number">@k.Number</option>
+                            }
+                        }
+                }
+            </select>
+    </div>
+    }
+</div>
+<div class="payment-container">
+    <h2 class="form-title">ინვოისი</h2>
+        <div class="input-row">
+            <div class="input-group">
+                <label>ადგილი</label>
+            </div>
+            <div class="input-group">
+                <label>ფასი</label>
+            </div>
+        </div>
+       
+        <button type="submit" class="submit-btn">ბილეთის რეგისტრაცია</button>
+</div>
+
+
+</form>

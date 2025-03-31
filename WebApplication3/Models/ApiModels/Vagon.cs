@@ -10,6 +10,10 @@ namespace WebApplication3.Models.ApiModels
 
         [JsonPropertyName("name")]
         public string Name { get; set; } = string.Empty;
+        [JsonPropertyName("trainId")]
+        public int TrainId { get; set; }
+        [JsonPropertyName("trainNumber")]
+        public int TrainNumber { get; set;} 
 
         [JsonPropertyName("seats")]
         public List<Seat> Seats { get; set; } = new List<Seat>();

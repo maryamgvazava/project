@@ -1,0 +1,87 @@
+﻿@model PDF
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+<style>
+    .schedule-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #f9fafb;
+    }
+
+    .schedule-table th {
+    background-color: #f3f4f6;
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+    font-weight: 600;
+    }
+
+    .schedule-table td {
+    padding: 15px;
+    border-bottom: 1px solid #e5e7eb;
+    vertical-align: middle;
+    }
+
+    .schedule-table .action-btn {
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+</style>
+<div class="container">
+    <table class="schedule-table">
+        <tbody>
+            <tr>
+                <td>
+                    ბილეთის ნომერი : @Model.ticketid
+                </td>
+                <td>
+                    გაცემის თარიღი : @DateTime.Now.Year-0 @DateTime.Now.Month-@DateTime.Now.Day 
+                </td>
+            </tr>
+            <tr>
+                <td>გამგზავრება: @Model.train.From ;  @Model.train.DepartureTime</td>
+                <td>ჩასვლა: @Model.train.To @Model.train.ArrivalTime </td>
+                <td>გასვლის თარიღი: @HttpContextAccessor.HttpContext.Session.GetString("date")</td>
+            </tr>
+            <th>საკონტაქტო ინფორმაცია:</th>
+            <tr>
+                <td>
+                    იმეილი : @Model.sakontaqtogmaili
+                </td>
+                <td>
+                    ტელეფონის ნომერი: @Model.sakontaqtonomeri
+                </td>
+            </tr>
+            <th>მგზავრები</th>
+            @for (int i = 0; i < Model.People.Count; ++i)
+            {
+                
+                <tr>
+            <td>
+                    სახელი : @Model.People[i].saxeli
+            </td>
+            <td>
+                    გვარი: @Model.People[i].gvari
+            </td>
+            <td>
+                    პირადი ნომერი:@Model.People[i].piradinomeri
+            </td>
+            <td>
+                    ადგილი:@Model.People[i].adgili
+            </td>
+            <td>
+                ვაგონი:3
+            </td>
+        </tr>
+            }
+        </tbody>
+    </table>
+    <h2>______________________</h2>
+    <h2>სულ გადახდილი:@Model.Sulfasi ლ </h2>
+</div>
+<a class="btn btn-primary" asp-controller="Home" asp-action="GetPdf">Dowload PDF</a>

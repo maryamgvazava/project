@@ -1,0 +1,70 @@
+﻿@model List<WebApplication3.Models.ApiModels.Station>
+<style>
+    .container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    }
+    .form-inline {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px   ; 
+    flex-wrap: nowrap; 
+    }
+    .form-inline select,
+    .form-inline input[type="date"],
+    .form-inline input[type="text"] {
+    padding: 10px;
+    margin: 5px 0;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    }
+    .form-inline button {
+    background-color: #1d4ed8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0;
+    }
+
+    .form-inline button:hover {
+    background-color: #1e3a8a;
+    }
+
+    h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    }
+</style>
+
+@{
+    ViewData["Title"] = "Filter Form";
+}
+<h2>დაჯავშნეთ  მატარებლის ბილეთი</h2>
+<form method="post" class="form-inline" asp-controller="Home" asp-action="Search">
+    
+    <select name="saidan" required>
+        <option disabled value="" selected >საიდან</option>
+        @foreach (var i in Model)
+        {
+            <option value="@i.Name">@i.Name</option>
+        }
+    </select>
+    <select name="sad" required >
+        <option disabled value="" selected>სად</option>
+        <@foreach (var i in Model)
+        {
+            <option value="@i.Name">@i.Name</option>
+        }
+    </select>
+    <input type="date" name="date"  required placeholder="გამგზავრების თარიღი">
+    <input type="text" name="quantity" required placeholder="მგზავრების რაოდენობა">
+    <button type="submit">მატარებლის მოძებნა</button>
+</form>

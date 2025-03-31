@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\WebApplication3.csproj": {}
+    "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\WebApplication3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\WebApplication3.csproj": {
+    "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\WebApplication3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
+        "projectUniqueName": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\WebApplication3.csproj",
         "projectName": "WebApplication3",
-        "projectPath": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\obj\\",
+        "projectPath": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\WebApplication3.csproj",
+        "packagesPath": "C:\\Users\\gioue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gioue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,12 +44,16 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNet.Razor": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -62,9 +66,21 @@
               "target": "Package",
               "version": "[4.0.0, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "PDFsharp-MigraDoc": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
             "QuestPDF": {
               "target": "Package",
               "version": "[2023.12.0, )"
+            },
+            "Razor.Templating.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
             },
             "bootstrap": {
               "target": "Package",
@@ -98,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

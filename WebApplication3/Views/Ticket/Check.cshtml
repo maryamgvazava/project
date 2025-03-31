@@ -1,0 +1,26 @@
+﻿@page
+@model WebApplication3.Pages.Ticket.CheckModel
+
+<div class="container">
+    <h2>Ticket Check</h2>
+
+    <form method="post">
+        <div class="form-group">
+            <label asp-for="TicketId"></label>
+            <input asp-for="TicketId" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary">Check Ticket</button>
+    </form>
+
+    @if (Model.Ticket != null)
+    {
+    <div class="mt-4">
+        <h4>Ticket Details</h4>
+        <!-- Add other ticket details -->
+
+        <form method="post" asp-page-handler="Cancel">
+            <button type="submit" class="btn btn-danger">Cancel Ticket</button>
+        </form>
+    </div>
+    }
+</div>

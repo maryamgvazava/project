@@ -1,0 +1,67 @@
+﻿@model List<Departure>
+<style>
+    .schedule-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #f9fafb;
+    }
+
+    .schedule-table th {
+    background-color: #f3f4f6;
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+    font-weight: 600;
+    }
+
+    .schedule-table td {
+    padding: 15px;
+    border-bottom: 1px solid #e5e7eb;
+    vertical-align: middle;
+    }
+
+    .schedule-table .action-btn {
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+</style>
+
+<div class="container">
+    <h2>მატარაბლის ჩამონათვალი</h2>
+    <table class="schedule-table">
+        <thead>
+            <tr>
+                <th>მატარებლის სახელი</th>
+               
+                <th>გამგზავრება</th>
+                <th>ჩასვლა</th>
+                <th></th>
+            </tr>
+        </thead>
+        <form method="post" asp-controller="Home" asp-action="Dajavshna" >
+        <tbody>
+            @foreach (var i in Model)
+            {
+                @foreach(var trains in i.Trains)
+                {
+                <tr>
+                    <td>#@trains.Id @trains.Name</td>
+                    <td>@trains.DepartureTime @i.Source</td>
+                    <td>@trains.ArrivalTime @i.Destination</td>
+                    <td>
+                            <input type="hidden" name="trainid" value="@trains.Id" />
+                        <button type="submit" class="action-btn" >დაჯავშნა</button>
+                    </td>
+                </tr>
+                    
+                }
+            }
+        </tbody>
+            </form>
+    </table>
+</div>

@@ -34,6 +34,9 @@ namespace WebApplication3.Models.ApiModels
 
             [JsonPropertyName("idNumber")]
             public string IdNumber { get; set; } = string.Empty;
+
+            public string Status { get; set; }
+            public bool PayoutCompleted { get; set; }
         }
     }
 }

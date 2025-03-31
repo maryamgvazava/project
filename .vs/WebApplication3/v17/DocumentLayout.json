@@ -1,194 +1,186 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\WebApplication3\\",
+  "WorkspaceRootPath": "C:\\Users\\gioue\\gio\\sxva\\project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\views\\home\\saboloo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\home\\saboloo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\views\\home\\dajavshna.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\home\\dajavshna.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\services\\pdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\services\\pdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\models\\apimodels\\pdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\apimodels\\pdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\webapplication3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\webapplication3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\services\\ipdfservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\services\\ipdfservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\models\\apimodels\\pirovneba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\apimodels\\pirovneba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\models\\apimodels\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\apimodels\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\models\\apimodels\\vagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\apimodels\\vagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\views\\home\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\home\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\models\\apimodels\\train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\apimodels\\train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\services\\railwayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\services\\railwayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\models\\apimodels\\ticketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\apimodels\\ticketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\views\\passengers\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\passengers\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\views\\ticket\\check.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\ticket\\check.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\services\\stationsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\services\\stationsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\views\\shared\\_seatselectionmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\shared\\_seatselectionmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\views\\passengers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\passengers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\models\\viewmodels\\paymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\viewmodels\\paymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\models\\viewmodels\\passengerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\viewmodels\\passengerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\models\\viewmodels\\bookingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\viewmodels\\bookingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\models\\apimodels\\departure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\apimodels\\departure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\views\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\views\\trains\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\trains\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\views\\trains\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\trains\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\views\\ticket\\check.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\ticket\\check.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\views\\payment\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\payment\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\views\\payment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\payment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\services\\istationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\services\\istationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\views\\trains\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\trains\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gioue\\gio\\sxva\\project\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Services\\RailwayService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Services\\RailwayService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Services\\IRailwayService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Services\\IRailwayService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Services\\PDFService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Services\\PDFService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Services\\IPDFServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Services\\IPDFServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Pages\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Pages\\Index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\PaymentController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Controllers\\PaymentController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Trains\\Index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Pages\\Trains\\Index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ErrorViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Models\\ErrorViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Trains\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Pages\\Trains\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Pages\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Trains\\Details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Pages\\Trains\\Details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ViewModels\\PaymentViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Models\\ViewModels\\PaymentViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ViewModels\\BookingViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Models\\ViewModels\\BookingViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Passengers\\Index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Pages\\Passengers\\Index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Passengers\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Pages\\Passengers\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\TicketController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Controllers\\TicketController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ViewModels\\SearchViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Models\\ViewModels\\SearchViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ViewModels\\PassengerViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Models\\ViewModels\\PassengerViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ApiModels\\Vagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Models\\ApiModels\\Vagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ApiModels\\Train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Models\\ApiModels\\Train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ApiModels\\TicketResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Models\\ApiModels\\TicketResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ApiModels\\TicketRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Models\\ApiModels\\TicketRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ApiModels\\Seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Models\\ApiModels\\Seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ApiModels\\Departure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Models\\ApiModels\\Departure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\WebApplication3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\WebApplication3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\_ViewStart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Pages\\_ViewStart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Pages\\Error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Pages\\Error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Trains\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Pages\\Trains\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Ticket\\Check.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Pages\\Ticket\\Check.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Ticket\\Check.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Pages\\Ticket\\Check.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Shared\\_ValidationScriptsPartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Pages\\Shared\\_ValidationScriptsPartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Shared\\_SeatSelectionModal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Pages\\Shared\\_SeatSelectionModal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Pages\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Payment\\Index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Pages\\Payment\\Index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Payment\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Pages\\Payment\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\views\\error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication3\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|c:\\users\\gioue\\gio\\sxva\\project\\webapplication3\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A287B108-7E12-43B9-A999-2CDF714295E5}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -197,42 +189,107 @@
       "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "DockedWidth": 51,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:103040103:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Program.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Program.cs",
+              "RelativeToolTip": "WebApplication3\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T08:33:35.379Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwDUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T08:52:44.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PDF.cs",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Models\\ApiModels\\PDF.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Models\\ApiModels\\PDF.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Models\\ApiModels\\PDF.cs",
+              "RelativeToolTip": "WebApplication3\\Models\\ApiModels\\PDF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T08:31:32.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Saboloo.cshtml",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Home\\Saboloo.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Home\\Saboloo.cshtml",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Home\\Saboloo.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Home\\Saboloo.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAE0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T07:32:01.925Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IPDFServices.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Services\\IPDFServices.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Services\\IPDFServices.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Services\\IPDFServices.cs",
-              "RelativeToolTip": "WebApplication3\\Services\\IPDFServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication3\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAcwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T11:49:12.875Z",
+              "WhenOpened": "2025-03-22T18:31:41.939Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "WebApplication3\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "PDFService.cs",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Services\\PDFService.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Services\\PDFService.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Services\\PDFService.cs",
+              "RelativeToolTip": "WebApplication3\\Services\\PDFService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAASwD4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T09:57:36.824Z",
+              "WhenOpened": "2025-03-23T12:51:29.295Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 40,
               "Title": "WebApplication3.http",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3.http",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3.http",
               "RelativeDocumentMoniker": "WebApplication3.http",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3.http",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3.http",
               "RelativeToolTip": "WebApplication3.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
@@ -241,129 +298,168 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRailwayService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Services\\IRailwayService.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Services\\IRailwayService.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Services\\IRailwayService.cs",
-              "RelativeToolTip": "WebApplication3\\Services\\IRailwayService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "DocumentIndex": 41,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "WebApplication3\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T16:34:07.956Z",
+              "WhenOpened": "2025-03-25T09:57:36.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SearchViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ViewModels\\SearchViewModel.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Models\\ViewModels\\SearchViewModel.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ViewModels\\SearchViewModel.cs",
-              "RelativeToolTip": "WebApplication3\\Models\\ViewModels\\SearchViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "StationsService.cs",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Services\\StationsService.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Services\\StationsService.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Services\\StationsService.cs",
+              "RelativeToolTip": "WebApplication3\\Services\\StationsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T16:30:25.138Z",
+              "WhenOpened": "2025-03-26T16:50:01.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Pages\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "WebApplication3\\Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAUwCwAAAABAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Vagon.cs",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Models\\ApiModels\\Vagon.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Models\\ApiModels\\Vagon.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Models\\ApiModels\\Vagon.cs",
+              "RelativeToolTip": "WebApplication3\\Models\\ApiModels\\Vagon.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADgvxIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T16:23:50.35Z",
+              "WhenOpened": "2025-03-23T13:57:42.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Seat.cs",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Models\\ApiModels\\Seat.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Models\\ApiModels\\Seat.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Models\\ApiModels\\Seat.cs",
+              "RelativeToolTip": "WebApplication3\\Models\\ApiModels\\Seat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T08:28:31.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Home\\Search.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Home\\Search.cshtml",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Home\\Search.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Home\\Search.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T17:46:54.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dajavshna.cshtml",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Home\\Dajavshna.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Home\\Dajavshna.cshtml",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Home\\Dajavshna.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Home\\Dajavshna.cshtml",
+              "ViewState": "AgIAANMAAAAAAAAAAAAiwOEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T18:14:12.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IStationService.cs",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Services\\IStationService.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Services\\IStationService.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Services\\IStationService.cs",
+              "RelativeToolTip": "WebApplication3\\Services\\IStationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T16:55:34.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IPDFServices.cs",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Services\\IPDFServices.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Services\\IPDFServices.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Services\\IPDFServices.cs",
+              "RelativeToolTip": "WebApplication3\\Services\\IPDFServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:49:12.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WebApplication3.csproj",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\WebApplication3.csproj",
+              "RelativeDocumentMoniker": "WebApplication3\\WebApplication3.csproj",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\WebApplication3.csproj",
+              "RelativeToolTip": "WebApplication3\\WebApplication3.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-22T17:48:55.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Index.cshtml",
-              "RelativeToolTip": "WebApplication3\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAADwvxsAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T16:23:25.252Z",
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "WebApplication3\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T08:27:37.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WebApplication3.csproj",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3.csproj",
-              "RelativeDocumentMoniker": "WebApplication3.csproj",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3.csproj",
-              "RelativeToolTip": "WebApplication3.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAowBAAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-24T15:24:37.062Z",
+              "DocumentIndex": 10,
+              "Title": "Pirovneba.cs",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Models\\ApiModels\\Pirovneba.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Models\\ApiModels\\Pirovneba.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Models\\ApiModels\\Pirovneba.cs",
+              "RelativeToolTip": "WebApplication3\\Models\\ApiModels\\Pirovneba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T07:25:21.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "WebApplication3\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "WebApplication3\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAiwCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-24T15:13:03.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "WebApplication3\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "WebApplication3\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-24T15:12:53.12Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-24T14:35:00.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 39,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\Program.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T13:33:21.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "WebApplication3\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAACGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-23T14:41:40.638Z",
@@ -371,51 +467,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 27,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebApplication3\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAowBwAAAAHAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwA0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-23T14:41:33.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 16,
               "Title": "TicketResponse.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ApiModels\\TicketResponse.cs",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Models\\ApiModels\\TicketResponse.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Models\\ApiModels\\TicketResponse.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ApiModels\\TicketResponse.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Models\\ApiModels\\TicketResponse.cs",
               "RelativeToolTip": "WebApplication3\\Models\\ApiModels\\TicketResponse.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAiwCEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T13:58:42.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Vagon.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ApiModels\\Vagon.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Models\\ApiModels\\Vagon.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ApiModels\\Vagon.cs",
-              "RelativeToolTip": "WebApplication3\\Models\\ApiModels\\Vagon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T13:57:42.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 43,
               "Title": "Error.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Error.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Pages\\Error.cshtml.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Error.cshtml.cs",
-              "RelativeToolTip": "WebApplication3\\Pages\\Error.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Error.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Error.cshtml.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Error.cshtml.cs",
+              "RelativeToolTip": "WebApplication3\\Views\\Error.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T13:41:42.989Z",
@@ -423,12 +506,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 28,
               "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Error.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Pages\\Error.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Error.cshtml",
-              "RelativeToolTip": "WebApplication3\\Pages\\Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Error.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Error.cshtml",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Error.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-23T13:41:34.095Z",
@@ -436,12 +519,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 29,
               "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Pages\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\_ViewStart.cshtml",
-              "RelativeToolTip": "WebApplication3\\Pages\\_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-23T13:25:10.112Z",
@@ -449,64 +532,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 37,
               "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Trains\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Pages\\Trains\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Trains\\Index.cshtml.cs",
-              "RelativeToolTip": "WebApplication3\\Pages\\Trains\\Index.cshtml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBsAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Trains\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Trains\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Trains\\Index.cshtml.cs",
+              "RelativeToolTip": "WebApplication3\\Views\\Trains\\Index.cshtml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAjwBcAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T13:41:16.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Details.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Trains\\Details.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Pages\\Trains\\Details.cshtml.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Trains\\Details.cshtml.cs",
-              "RelativeToolTip": "WebApplication3\\Pages\\Trains\\Details.cshtml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T13:40:59.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 32,
               "Title": "Check.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Ticket\\Check.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Pages\\Ticket\\Check.cshtml.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Ticket\\Check.cshtml.cs",
-              "RelativeToolTip": "WebApplication3\\Pages\\Ticket\\Check.cshtml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Ticket\\Check.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Ticket\\Check.cshtml.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Ticket\\Check.cshtml.cs",
+              "RelativeToolTip": "WebApplication3\\Views\\Ticket\\Check.cshtml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T13:27:01.397Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 31,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Trains\\Details.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Pages\\Trains\\Details.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Trains\\Details.cshtml",
-              "RelativeToolTip": "WebApplication3\\Pages\\Trains\\Details.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAowCYAAAAGAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Trains\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Trains\\Details.cshtml",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Trains\\Details.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Trains\\Details.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-23T13:24:16.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 30,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Trains\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Pages\\Trains\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Trains\\Index.cshtml",
-              "RelativeToolTip": "WebApplication3\\Pages\\Trains\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Trains\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Trains\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Trains\\Index.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Trains\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-23T13:23:59.027Z",
@@ -514,12 +584,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 34,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Pages\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\_ViewImports.cshtml",
-              "RelativeToolTip": "WebApplication3\\Pages\\_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-23T12:56:33.817Z",
@@ -527,115 +597,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 20,
               "Title": "_SeatSelectionModal.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Shared\\_SeatSelectionModal.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Pages\\Shared\\_SeatSelectionModal.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Shared\\_SeatSelectionModal.cshtml",
-              "RelativeToolTip": "WebApplication3\\Pages\\Shared\\_SeatSelectionModal.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAowB8AAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Shared\\_SeatSelectionModal.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Shared\\_SeatSelectionModal.cshtml",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Shared\\_SeatSelectionModal.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Shared\\_SeatSelectionModal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-23T12:56:10.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PDFService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Services\\PDFService.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Services\\PDFService.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Services\\PDFService.cs",
-              "RelativeToolTip": "WebApplication3\\Services\\PDFService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwDUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T12:51:29.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 33,
               "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Payment\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Pages\\Payment\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Payment\\Index.cshtml.cs",
-              "RelativeToolTip": "WebApplication3\\Pages\\Payment\\Index.cshtml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Payment\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Payment\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Payment\\Index.cshtml.cs",
+              "RelativeToolTip": "WebApplication3\\Views\\Payment\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwB8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T12:50:43.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 18,
               "Title": "Check.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Ticket\\Check.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Pages\\Ticket\\Check.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Ticket\\Check.cshtml",
-              "RelativeToolTip": "WebApplication3\\Pages\\Ticket\\Check.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Ticket\\Check.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Ticket\\Check.cshtml",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Ticket\\Check.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Ticket\\Check.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-23T12:43:46.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 35,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Payment\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Pages\\Payment\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Payment\\Index.cshtml",
-              "RelativeToolTip": "WebApplication3\\Pages\\Payment\\Index.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAowB8AAAAGAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Payment\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Payment\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Payment\\Index.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Payment\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwB8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-23T12:43:05.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "TicketController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\TicketController.cs",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Controllers\\TicketController.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Controllers\\TicketController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\TicketController.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Controllers\\TicketController.cs",
               "RelativeToolTip": "WebApplication3\\Controllers\\TicketController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAiwCsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvysAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T12:39:27.24Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WebApplication3\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAgwDkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T18:31:41.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "WebApplication3.csproj",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
-              "RelativeDocumentMoniker": "WebApplication3\\WebApplication3.csproj",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
-              "RelativeToolTip": "WebApplication3\\WebApplication3.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-22T17:48:55.19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 44,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebApplication3\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Properties\\launchSettings.json",
               "RelativeToolTip": "WebApplication3\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -644,11 +675,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 38,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\appsettings.json",
               "RelativeDocumentMoniker": "WebApplication3\\appsettings.json",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\appsettings.json",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\appsettings.json",
               "RelativeToolTip": "WebApplication3\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -657,115 +688,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Program.cs",
-              "RelativeToolTip": "WebApplication3\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T08:33:35.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 17,
               "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Passengers\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Pages\\Passengers\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Passengers\\Index.cshtml.cs",
-              "RelativeToolTip": "WebApplication3\\Pages\\Passengers\\Index.cshtml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAiwCkAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Passengers\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Passengers\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Passengers\\Index.cshtml.cs",
+              "RelativeToolTip": "WebApplication3\\Views\\Passengers\\Index.cshtml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAWwBsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T08:33:22.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 15,
               "Title": "RailwayService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Services\\RailwayService.cs",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Services\\RailwayService.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Services\\RailwayService.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Services\\RailwayService.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Services\\RailwayService.cs",
               "RelativeToolTip": "WebApplication3\\Services\\RailwayService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAYwCoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T08:30:55.909Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Passengers\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Pages\\Passengers\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Pages\\Passengers\\Index.cshtml",
-              "RelativeToolTip": "WebApplication3\\Pages\\Passengers\\Index.cshtml",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAQwFwAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Passengers\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Passengers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Views\\Passengers\\Index.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Passengers\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBZwFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-22T08:30:19.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "PaymentViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ViewModels\\PaymentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Models\\ViewModels\\PaymentViewModel.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Models\\ViewModels\\PaymentViewModel.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ViewModels\\PaymentViewModel.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Models\\ViewModels\\PaymentViewModel.cs",
               "RelativeToolTip": "WebApplication3\\Models\\ViewModels\\PaymentViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T08:29:05.919Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 14,
               "Title": "Train.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ApiModels\\Train.cs",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Models\\ApiModels\\Train.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Models\\ApiModels\\Train.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ApiModels\\Train.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Models\\ApiModels\\Train.cs",
               "RelativeToolTip": "WebApplication3\\Models\\ApiModels\\Train.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwB8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T08:28:53.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "TicketRequest.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ApiModels\\TicketRequest.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Models\\ApiModels\\TicketRequest.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ApiModels\\TicketRequest.cs",
-              "RelativeToolTip": "WebApplication3\\Models\\ApiModels\\TicketRequest.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T08:28:41.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Seat.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ApiModels\\Seat.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Models\\ApiModels\\Seat.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ApiModels\\Seat.cs",
-              "RelativeToolTip": "WebApplication3\\Models\\ApiModels\\Seat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T08:28:31.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "BookingViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ViewModels\\BookingViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Models\\ViewModels\\BookingViewModel.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Models\\ViewModels\\BookingViewModel.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ViewModels\\BookingViewModel.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Models\\ViewModels\\BookingViewModel.cs",
               "RelativeToolTip": "WebApplication3\\Models\\ViewModels\\BookingViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAgwBUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -774,41 +766,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "PassengerViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ViewModels\\PassengerViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Models\\ViewModels\\PassengerViewModel.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Models\\ViewModels\\PassengerViewModel.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ViewModels\\PassengerViewModel.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Models\\ViewModels\\PassengerViewModel.cs",
               "RelativeToolTip": "WebApplication3\\Models\\ViewModels\\PassengerViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T08:28:16.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 25,
               "Title": "Departure.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ApiModels\\Departure.cs",
+              "DocumentMoniker": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Models\\ApiModels\\Departure.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Models\\ApiModels\\Departure.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Models\\ApiModels\\Departure.cs",
+              "ToolTip": "C:\\Users\\gioue\\gio\\sxva\\project\\WebApplication3\\Models\\ApiModels\\Departure.cs",
               "RelativeToolTip": "WebApplication3\\Models\\ApiModels\\Departure.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T08:28:08.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\PaymentController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\WebApplication3\\WebApplication3\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "WebApplication3\\Controllers\\PaymentController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T08:27:37.743Z",
               "EditorCaption": ""
             }
           ]
