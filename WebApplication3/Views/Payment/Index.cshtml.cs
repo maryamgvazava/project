@@ -17,7 +17,7 @@ namespace WebApplication3.Pages.Payment // Note the namespace
         [BindProperty]
         public PaymentViewModel Payment { get; set; } = new();
 
-        // Single constructor
+
         public IndexModel(IRailwayService railwayService)
         {
             _railwayService = railwayService;
